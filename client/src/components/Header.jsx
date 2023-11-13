@@ -16,6 +16,11 @@ export default function Header() {
           />
           <FaSearch className="text-slate-500" />
         </form>
+        <ul className="flex gap-4">
+          <li className="hidden sm:in-line">Home</li>
+          <li>About</li>
+          <li>Sign in</li>
+        </ul>
       </div>
     </header>
   );
