@@ -1,0 +1,20 @@
+{
+  "name": "mern---real-estate-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimzon/Real-Estate-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimzon/Real-Estate-Project/issues"
+  },
+  "homepage": "https://github.com/Jimzon/Real-Estate-Project#readme"
+}
