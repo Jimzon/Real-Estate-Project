@@ -8,11 +8,11 @@ export default function Header() {
           <span className="text-slate-500">Luffy</span>
           <span className="text-slate-700">Land</span>
         </h1>
-        <form className="bg-slate-100 p-3 rounded-lg">
+        <form className="bg-slate-100 p-3 rounded-lg flex items-center">
           <input
             type="text"
             placeholder="Search..."
-            className="bg-transparent"
+            className="bg-transparent focus:outline-none w-24 sm:w-64"
           />
           <FaSearch className="text-slate-500" />
         </form>
