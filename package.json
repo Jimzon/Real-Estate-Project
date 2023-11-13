@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jimzon/Real-Estate-Project/issues"
   },
-  "homepage": "https://github.com/Jimzon/Real-Estate-Project#readme"
+  "homepage": "https://github.com/Jimzon/Real-Estate-Project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
