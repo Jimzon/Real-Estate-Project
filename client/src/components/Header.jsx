@@ -1,4 +1,5 @@
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -17,9 +18,15 @@ export default function Header() {
           <FaSearch className="text-slate-500" />
         </form>
         <ul className="flex gap-4">
-          <li className="hidden sm:in-line">Home</li>
-          <li>About</li>
-          <li>Sign in</li>
+          <li className="hidden sm:inline text-slate-700 hover:underline">
+            Home
+          </li>
+          <li className="hidden sm:inline text-slate-700 hover:underline">
+            About
+          </li>
+          <li className="hidden sm:inline text-slate-700 hover:underline">
+            Sign in
+          </li>
         </ul>
       </div>
     </header>
