@@ -1,9 +1,9 @@
 import express from "express";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+dotenv.config();
 
-mongoose.connect(
-  "mongodb+srv://jimzontrangia:luffyboy2022@mern-real-estate.qornwff.mongodb.net/mern-real-estate?retryWrites=true&w=majority"
-);
+mongoose.connect(process.env.MONGO);
 
 const app = express();
 
