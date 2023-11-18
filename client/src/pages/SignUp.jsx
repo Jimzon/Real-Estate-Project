@@ -9,8 +9,9 @@ export default function SignUp() {
       [e.target.id]: e.target.value,
     });
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const res = await fetch("api/auth/signup", formData);
   };
 
   console.log(formData);
