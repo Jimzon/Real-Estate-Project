@@ -9,11 +9,15 @@ export default function SignUp() {
       [e.target.id]: e.target.value,
     });
   };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   console.log(formData);
   return (
     <div className="p-3 max-w-lg mx-auto">
       <h1 className="text-3xl text-center font-semibold my-7">Sign up</h1>
-      <form className="flex flex-col gap-4">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <input
           type="text"
           placeholder="username"
