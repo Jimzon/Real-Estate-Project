@@ -1,5 +1,6 @@
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "../firebase";
+import { useDispatch } from "react-redux";
 
 export default function OAuth() {
   const handleGoogleClick = async () => {
@@ -19,6 +20,7 @@ export default function OAuth() {
           photo: result.user.photoURL,
         }),
       });
+      const data = await res.json();
     } catch (error) {
       console.log("could not signin with Google", error);
     }
