@@ -3,7 +3,9 @@ import React from "react";
 export default function OAuth() {
   const handleGoogleClick = async () => {
     try {
-    } catch (error) {}
+    } catch (error) {
+      console.log("could not signin with Google", error);
+    }
   };
 
   return (
