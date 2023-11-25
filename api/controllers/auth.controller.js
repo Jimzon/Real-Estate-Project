@@ -30,3 +30,12 @@ export const signin = async (req, res, next) => {
       .json(rest);
   } catch (error) {}
 };
+
+
+export const google = async (req, res, next){
+  try {
+    
+  } catch (error) {
+    next(error)
+  }
+}
