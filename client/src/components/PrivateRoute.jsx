@@ -1,5 +1,6 @@
-import React from "react";
+import { useSelector } from "react-redux";
 
 export default function PrivateRoute() {
-  return <div></div>;
+  const { currentUser } = useSelector((state) => state.user);
+  return <div>pRIVATE</div>;
 }
