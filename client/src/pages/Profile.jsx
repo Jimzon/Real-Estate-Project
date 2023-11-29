@@ -6,6 +6,7 @@ export default function Profile() {
     <div>
       <h1 className="text-3xl font-semibold text-center my-7">Profile</h1>
       <form className="flex flex-col gap-4">
+        <input type="file" />
         <img
           src={currentUser.avatar}
           alt="profile"
