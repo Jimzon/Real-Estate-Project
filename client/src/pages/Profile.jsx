@@ -1,6 +1,8 @@
 import { useSelector } from "react-redux";
+import { useRef } from "react";
 
 export default function Profile() {
+  const fileRef = useRef(null);
   const { currentUser } = useSelector((state) => state.user);
   return (
     <div>
